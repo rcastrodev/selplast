@@ -1,0 +1,3 @@
+<a href="{{ route('industria', ['id'=> $i->id ]) }}" class="card producto text-decoration-none d-flex justify-content-center align-items-center position-relative" style="height: 313px; border-radius: 20px; background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgb(0 0 0 / 52%)), url({{ $i->image }}); background-repeat: no-repeat; background-size: 100% 100%; background-position: center;">
+    <span class="font-size-24 text-white position-absolute" style="font-weight: 500; bottom: 20px; left: 20px;">{{ Str::limit($i->content_1, 40) }}</span>
+</a>
